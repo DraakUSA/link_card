@@ -7,7 +7,7 @@ export default function Home() {
 
   const user = {
     ...userConfig,
-    avatarUrl: avatarImage?.imageUrl ?? 'https://picsum.photos/seed/avatar/200/200',
+    avatarUrl: avatarImage?.imageUrl ?? 'https://www.gravatar.com/avatar/f9b5a8355982e6c5c44158461159959f?s=200',
     avatarHint: avatarImage?.imageHint ?? 'portrait person',
   };
 

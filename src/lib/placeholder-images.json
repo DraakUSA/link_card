@@ -2,8 +2,8 @@
   "placeholderImages": [
     {
       "id": "avatar",
-      "description": "A person's avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1525599428495-0441bd5c67de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHBlcnNvbnxlbnwwfHx8fDE3NjUxOTMxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A person's avatar from gravatar",
+      "imageUrl": "https://www.gravatar.com/avatar/f9b5a8355982e6c5c44158461159959f?s=200",
       "imageHint": "portrait person"
     }
   ]

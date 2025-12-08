@@ -1,27 +1,27 @@
 {
   "userConfig": {
-    "name": "Alex Doe",
-    "title": "Full-Stack Developer",
-    "avatarFallback": "AD",
+    "name": "Paul-Joseph de Werk",
+    "title": "Senior Software Engineer",
+    "avatarFallback": "PJdW",
     "links": [
       {
         "label": "Website",
-        "url": "https://example.com",
+        "url": "https://draakusa.github.io",
         "icon": "Globe"
       },
       {
         "label": "LinkedIn",
-        "url": "https://linkedin.com/in/example",
+        "url": "https://linkedin.com/in/dewerk",
         "icon": "Linkedin"
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/example",
+        "url": "https://github.com/DraakUSA",
         "icon": "Github"
       },
       {
         "label": "Contact Me",
-        "url": "mailto:alex.doe@example.com",
+        "url": "mailto:dewerk@gmail.com",
         "icon": "Mail"
       }
     ]
