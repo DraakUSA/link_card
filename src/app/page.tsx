@@ -1,37 +1,14 @@
 import { LinkCard } from '@/components/link-card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { userConfig } from '@/lib/link-card-config';
 
 export default function Home() {
   const avatarImage = PlaceHolderImages.find((img) => img.id === 'avatar');
 
   const user = {
-    name: 'Alex Doe',
-    title: 'Full-Stack Developer',
+    ...userConfig,
     avatarUrl: avatarImage?.imageUrl ?? 'https://picsum.photos/seed/avatar/200/200',
     avatarHint: avatarImage?.imageHint ?? 'portrait person',
-    avatarFallback: 'AD',
-    links: [
-      {
-        label: 'Website',
-        url: 'https://example.com',
-        icon: 'Globe',
-      },
-      {
-        label: 'LinkedIn',
-        url: 'https://linkedin.com/in/example',
-        icon: 'Linkedin',
-      },
-      {
-        label: 'GitHub',
-        url: 'https://github.com/example',
-        icon: 'Github',
-      },
-      {
-        label: 'Contact Me',
-        url: 'mailto:alex.doe@example.com',
-        icon: 'Mail',
-      },
-    ],
   };
 
   return (

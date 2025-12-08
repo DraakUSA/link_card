@@ -1,0 +1,29 @@
+{
+  "userConfig": {
+    "name": "Alex Doe",
+    "title": "Full-Stack Developer",
+    "avatarFallback": "AD",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://example.com",
+        "icon": "Globe"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/example",
+        "icon": "Linkedin"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/example",
+        "icon": "Github"
+      },
+      {
+        "label": "Contact Me",
+        "url": "mailto:alex.doe@example.com",
+        "icon": "Mail"
+      }
+    ]
+  }
+}
