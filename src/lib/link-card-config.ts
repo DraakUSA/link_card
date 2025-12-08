@@ -10,6 +10,7 @@ type UserConfig = {
   name: string;
   title: string;
   avatarFallback: string;
+  gravatarEmail: string;
   links: Link[];
 };
 

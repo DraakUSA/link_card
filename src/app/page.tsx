@@ -1,14 +1,17 @@
+import { createHash } from 'crypto';
 import { LinkCard } from '@/components/link-card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { userConfig } from '@/lib/link-card-config';
 
 export default function Home() {
-  const avatarImage = PlaceHolderImages.find((img) => img.id === 'avatar');
+  const emailHash = createHash('md5')
+    .update(userConfig.gravatarEmail)
+    .digest('hex');
+  const gravatarUrl = `https://www.gravatar.com/avatar/${emailHash}?s=200`;
 
   const user = {
     ...userConfig,
-    avatarUrl: avatarImage?.imageUrl ?? 'https://www.gravatar.com/avatar/f9b5a8355982e6c5c44158461159959f?s=200',
-    avatarHint: avatarImage?.imageHint ?? 'portrait person',
+    avatarUrl: gravatarUrl,
+    avatarHint: 'portrait person',
   };
 
   return (
