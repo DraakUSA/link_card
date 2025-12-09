@@ -19,9 +19,22 @@ This is a [Next.js](https://nextjs.org/) application, built in Firebase Studio, 
 
 ## Getting Started
 
-To personalize your LinkCard, simply edit the configuration file:
+### Personalize Your LinkCard
 
 1.  Navigate to `src/config/link-card-config.json`.
 2.  Modify the values in the `userConfig` object with your own information. The `gravatarEmail` is used to fetch your profile picture automatically.
 
 That's it! The application will update with your details.
+
+### Local Development
+
+To run the application on your local machine for testing and development:
+
+1.  Open your terminal.
+2.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+3.  Open your browser and navigate to `http://localhost:9002`.
+
+The application will automatically reload as you make changes to the code.
