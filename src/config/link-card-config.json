@@ -1,0 +1,30 @@
+{
+  "userConfig": {
+    "name": "Paul-Joseph de Werk",
+    "title": "Senior Software Engineer",
+    "avatarFallback": "PJdW",
+    "gravatarEmail": "dewerk@gmail.com",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://draakusa.github.io",
+        "icon": "Globe"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/dewerk",
+        "icon": "Linkedin"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/DraakUSA",
+        "icon": "Github"
+      },
+      {
+        "label": "Contact Me",
+        "url": "mailto:pauljoseph.de.werk@gmail.com",
+        "icon": "Mail"
+      }
+    ]
+  }
+}
