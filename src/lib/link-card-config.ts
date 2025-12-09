@@ -1,4 +1,4 @@
-import data from '../config/link-card-config.json';
+import data from '@/config/link-card-config.json';
 
 type Link = {
   label: string;
