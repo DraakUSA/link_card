@@ -2,8 +2,8 @@
   "userConfig": {
     "name": "Paul-Joseph de Werk",
     "title": "Senior Software Engineer",
-    "avatarFallback": "PJdW",
     "gravatarEmail": "dewerk@gmail.com",
+    "avatarFallback": "PJdW",
     "links": [
       {
         "label": "Website",

@@ -1,6 +1,6 @@
 import { createHash } from 'crypto';
 import { LinkCard } from '@/components/link-card';
-import { userConfig } from '@/config/link-card-config';
+import { userConfig } from '@/lib/link-card-config';
 
 export default function Home() {
   const emailHash = createHash('md5')
