@@ -15,18 +15,41 @@ This is a [Next.js](https://nextjs.org/) application, built in Firebase Studio, 
 - **UI Components**: ShadCN UI
 - **Styling**: Tailwind CSS
 - **AI**: Google's Genkit
-- **Language**: TypeScript
+- **Deployment**: Firebase App Hosting
 
 ## Getting Started
 
-### Personalize Your LinkCard
+### 1. Initial Local Environment Setup
+
+Before running the application, you need to set up your local environment.
+
+1.  **Install Dependencies**: Open your terminal and run the following command to install the required Node.js packages.
+    ```bash
+    npm install
+    ```
+
+2.  **Set Up Environment Variables**: The application uses Genkit, which requires an API key for Google's Generative AI models.
+    - Create a new file named `.env.local` in the root of your project.
+    - Get your API key from [Google AI for Developers](https://aistudio.google.com/app/apikey).
+    - Add the following line to your `.env.local` file, replacing `YOUR_API_KEY` with your actual key:
+      ```
+      GOOGLE_GENAI_API_KEY=YOUR_API_KEY
+      ```
+
+3.  **Initialize Firebase**: If you haven't already, configure your local project to connect to Firebase.
+    ```bash
+    firebase init
+    ```
+    - When prompted, select **App Hosting**, **Genkit** (or AI Logic), and **Emulators**. This will link your local project to Firebase for deployment and local testing.
+
+### 2. Personalize Your LinkCard
 
 1.  Navigate to `src/config/link-card-config.json`.
 2.  Modify the values in the `userConfig` object with your own information. The `gravatarEmail` is used to fetch your profile picture automatically.
 
-That's it! The application will update with your details.
+That's it! Your environment is ready.
 
-### Local Development
+### 3. Local Development
 
 To run the application on your local machine for testing and development:
 
